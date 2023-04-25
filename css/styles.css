@@ -1,0 +1,268 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 16px 24px 16px;
+}
+.site-logo {
+  color: #f07f2e;
+  align-items: center;
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.48px;
+  letter-spacing: 0.5px;
+  gap: 8px;
+}
+
+.page-nav {
+  display: flex;
+  gap: 48px;
+}
+
+.page-nav a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
+}
+
+.page-nav a:hover {
+  color: #f07f2e;
+}
+
+.page-nav a:focus {
+  color: #f07f2e;
+}
+
+.hero {
+  position: relative;
+  height: 480px;
+  background-image: url(../img/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.greeting {
+  position: absolute;
+  width: 432px;
+  background-color: #0f3f3c;
+  border-radius: 16px;
+  padding: 24px;
+  left: 28px;
+  bottom: 52px;
+}
+
+.greeting h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 1.25px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.greeting p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #2c2c2c;
+  letter-spacing: 0.5px;
+}
+
+.section {
+  margin-top: 60px;
+}
+.kittens-list {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.kittens-item {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.kittens-item:hover {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.kittens-content {
+  padding: 16px 8px 24px 8px;
+}
+
+.kittens-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
+}
+
+.kittens-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
+}
+
+.gallery {
+}
+
+.gallery-title {
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
+}
+
+.gallery-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #2c2c2c;
+}
+
+.gallery-list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.gallery-item {
+  flex-basis: calc((100% - 80px) / 6);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.gallery-item:hover {
+  filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.25));
+}
+
+.gallery-img {
+}
+
+.page-footer {
+  background-color: #0f3f3c;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-top: 60px;
+}
+
+.page-footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-text img {
+  margin-bottom: 8px;
+}
+
+.page-footer .container {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.social {
+  padding-right: 8px;
+}
+.social p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  text-align: end;
+  margin-bottom: 8px;
+}
+.socials-links {
+  display: flex;
+  gap: 22px;
+}
+.socials-links svg {
+  width: 16px;
+  height: 16px;
+  fill: white;
+}
+
+.socials-links a:hover svg {
+  fill: tomato;
+}
+.socials-links a {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+}
+
+.socials-links a:hover {
+  background-color: #fff;
+}
